@@ -1,11 +1,18 @@
 import React from 'react';
+import { Container, Row, Col} from 'reactstrap';
 
 
 
 const Footer = () => {
     return (
-        <footer>
-             <h4>Copyright 2023. All rights reserved.</h4>
+        <footer className="footer">
+            <Container>
+                <Row>
+                    <Col md={12}>
+                        <p>&copy; 2023 All Rights Reserved</p>
+                    </Col>
+                </Row>
+            </Container>
         </footer>
        
     );
