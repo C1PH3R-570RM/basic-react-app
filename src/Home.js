@@ -1,4 +1,6 @@
 import React from 'react';
+import Carousel from './Carousel';
+
 
 
 
@@ -6,6 +8,7 @@ const Home = () => {
     return  <>
         <h2>My Web App</h2>
         <div className="column-container">
+            {/* <img src ="https://placehold.co/600x400?font=roboto" alt="" ></img> */}
            <section className="left-column">Lorem ipsum dolor sit amet, vis dicam appareat cu, ei meliore ceteros accusata est, sit ad vitae denique nominati. In sed omnis dissentiunt, 
            ei alienum voluptua assentior ius. Ut eum tempor nostrud. Vim purto lorem at, probo mazim senserit usu ne, et vix augue harum oportere. Vix ut singulis expetenda. Sed eros possim 
         temporibus ad, nulla homero ne mei.
@@ -22,7 +25,7 @@ const Home = () => {
           efficiendi adversarium in. Ut quo impetus delenit reprimique. </section>
         </div>
         <div className="carousel-container">
-            <p>placeholder text for carousel images</p>
+            <Carousel />
         </div>
     </>
 };

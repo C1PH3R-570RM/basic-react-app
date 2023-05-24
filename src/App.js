@@ -6,7 +6,7 @@ import './App.css';
 import Home from './Home';
 import About from './About';
 import Blog from './Blog';
-import Contact from './Contact';
+import ContactForm from './ContactForm';
 import Footer from './components/Footer';
 
 
@@ -30,7 +30,7 @@ function App() {
                 <NavLink tag={Link} to="/blog">Blog</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/contact">Contact</NavLink>
+                <NavLink tag={Link} to="/contactform">Contact</NavLink>
               </NavItem>
             </Nav>
           </Navbar>
@@ -39,7 +39,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contactform" element={<ContactForm />} />
           </Routes>
           <Footer/>
         </div>

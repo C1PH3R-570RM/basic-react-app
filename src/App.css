@@ -46,7 +46,7 @@ h2 {
 }
 
 .carousel-container {
-    border: 1px solid pink;
     display: flex;
     justify-content: center;
+    
 }
