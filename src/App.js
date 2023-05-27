@@ -4,8 +4,8 @@ import { Navbar, Nav, NavItem, NavLink, NavbarBrand} from 'reactstrap';
 import './App.css';
 
 import Home from './Home';
-import About from './About';
-import Blog from './Blog';
+import AboutUsPage from './AboutUsPage';
+import BlogPage from './BlogPage';
 import ContactForm from './ContactForm';
 import Footer from './components/Footer';
 
@@ -24,10 +24,10 @@ function App() {
                 <NavLink tag={Link} to="/">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/about">About</NavLink>
+                <NavLink tag={Link} to="/aboutuspage">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink tag={Link} to="/blog">Blog</NavLink>
+                <NavLink tag={Link} to="/blogpage">Blog</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/contactform">Contact</NavLink>
@@ -37,8 +37,8 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/aboutuspage" element={<AboutUsPage />} />
+            <Route path="/blogpage" element={<BlogPage />} />
             <Route path="/contactform" element={<ContactForm />} />
           </Routes>
           <Footer/>

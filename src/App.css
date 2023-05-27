@@ -2,6 +2,9 @@ body {
    min-height: 100vh;
    position: relative;
    margin: 0;
+   font-size: 62.5%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: #FAFDF6
 }
 
 /* footer styles */
@@ -14,35 +17,48 @@ footer {
     
 }
 
-p{
+.copyright{
     
     display: flex;
     justify-content: center;
     height: 55px;
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 1rem;
+    font-family: 'Gill Sans MT'
 }
 
 /* home page styles */
 
-h2 {
+.home-title {
     display: flex;
     justify-content: center;
     padding: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
 }
 
 .column-container{
     display: flex;
     justify-content: space-around;
+    font-family: 'Trebuchet MS'
 }
 
 .left-column {
+    border: 1px solid #000;
+    border-radius: 1%;
+    height: 500px;
+    width: 500px;
+    padding: 25px 100px 25px 100px;
+    margin: 25px 100px 25px 100px;
     
-    padding: 25px 200px 25px 300px;
 }
 .right-column {
-   
-    padding: 25px 200px 25px 300px;
+    border: 1px solid #000;
+    border-radius: 1%;
+    height: 500px;
+    width: 500px;
+    padding: 25px 100px 25px 100px;
+    margin: 25px 100px 25px 100px;
 }
 
 .carousel-container {
@@ -50,3 +66,124 @@ h2 {
     justify-content: center;
     
 }
+
+/* ImageCarousel Styles */
+
+.carousel {
+   
+
+}
+
+button {
+    height: 55px;
+    width: 150px;
+   
+
+    
+}
+
+/* Styles for the form container */
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    
+  }
+  
+  /* Styles for form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Styles for form inputs */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the submit button */
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Styles to align the form in the center */
+  html, body {
+    height: 100%;
+  }
+  
+  /* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  /* styles for About Us */
+
+  /* Styles for the container */
+div {
+    text-align: center;
+  }
+  
+  /* Styles for the heading */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the paragraph */
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the unordered list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styles for the list items */
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the member avatar */
+  li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Styles for the member name and role */
+  li strong {
+    font-weight: bold;
+  }
+  
+  /* Optional: Add hover effect on list items */
+  li:hover {
+    background-color: #f5f5f5;
+  }
