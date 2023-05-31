@@ -30,7 +30,7 @@ const ContactForm = () => {
             <div>
                 <label htmlFor="name">Name:</label>
            
-            <imput
+            <input
                 type="text"
                 id="name"
                 name="name"
